@@ -187,3 +187,15 @@ article {
   padding: 10px;
   opacity: 0.4;
 }
+
+@media screen and (min-width: 567px) and (max-width: 991px) {
+  .cardNotizie2 img {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+  .cardNotizie2 {
+    position: relative;
+  }
+}
