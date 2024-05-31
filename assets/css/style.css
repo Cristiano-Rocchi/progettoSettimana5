@@ -236,4 +236,7 @@ article {
     margin-bottom: 1em;
     margin-top: 0.5em;
   }
+  #sect2 article {
+    justify-content: space-between;
+  }
 }
