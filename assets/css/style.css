@@ -117,10 +117,10 @@ article {
 }
 .cardNotizie2 {
   display: flex;
-  margin-bottom: 2em;
+  margin-bottom: 3.5em;
 }
 .cardNotizie2 div {
-  max-width: 50%;
+  max-width: 70%;
 }
 .cardNotizie2 img {
   object-fit: cover;
@@ -135,13 +135,16 @@ article {
 .cardNotizie2 h2 {
   display: flex;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 .cardNotizie2 h2 img {
   width: 20px;
+  margin-right: 10px;
 }
 .cardNotizie2 h1 {
   font-size: 30px;
   font-weight: bold;
+  margin-bottom: 3px;
 }
 .cardNotizie2 p {
   opacity: 0.4;
