@@ -61,3 +61,39 @@ nav p {
 #svgM {
   width: 410px;
 }
+#sect2 {
+  padding-inline: 5em;
+}
+#sect2 article {
+  display: flex;
+}
+.cardNotizie {
+  display: flex;
+  width: 30%;
+}
+.numero h1 {
+  opacity: 0.3;
+  font-size: 2em;
+  position: relative;
+  padding-right: 20px;
+}
+.articolo div:first-of-type {
+  display: flex;
+  align-items: center;
+}
+.articolo img {
+  border-radius: 50%;
+  width: 30px;
+}
+.articolo h1 {
+  font-weight: bold;
+  padding-block: 10px;
+  font-size: 18px;
+}
+.articolo p {
+  opacity: 0.3;
+}
+.articolo h2 {
+  font-size: 17px;
+  padding-left: 8px;
+}
