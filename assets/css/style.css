@@ -6,6 +6,9 @@
 *::after {
   box-sizing: border-box;
 }
+main {
+  font-family: "Roboto", sans-serif;
+}
 
 header svg {
   width: 80px;
@@ -238,5 +241,17 @@ article {
   }
   #sect2 article {
     justify-content: space-between;
+  }
+  .articolo h2 {
+    font-size: 11px;
+
+    font-weight: bold;
+  }
+  .articolo h1 {
+    font-size: 16px;
+  }
+  .articolo p {
+    font-size: 10px;
+    opacity: 0.4;
   }
 }
