@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-#svgM {
-  width: 150px;
-  height: 150px;
-}
 header svg {
   width: 80px;
 }
@@ -21,7 +17,7 @@ header {
   align-items: center;
   border-bottom: solid 1px black;
   padding-inline: 5em;
-  min-height: 50px;
+  min-height: 70px;
 }
 nav a {
   color: black;
@@ -36,4 +32,32 @@ nav a:last-of-type {
 }
 nav p {
   display: inline;
+}
+#sect1 {
+  background-color: #ffc017;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5em;
+  align-items: center;
+  max-height: 300px;
+}
+#titolo h1 {
+  font-weight: bold;
+  font-size: 4em;
+
+  padding-bottom: 0.5em;
+}
+#titolo h2 {
+  padding-bottom: 1.5em;
+}
+#titolo button {
+  background-color: black;
+  min-width: 115px;
+  min-height: 30px;
+  border-radius: 30px;
+  border-color: black;
+  color: white;
+}
+#svgM {
+  width: 410px;
 }
