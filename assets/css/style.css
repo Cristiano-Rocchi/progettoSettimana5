@@ -173,3 +173,10 @@ article {
   opacity: 0.4;
   padding-block: 0.5em;
 }
+#linkFinali div {
+  display: flex;
+}
+#linkFinali p {
+  padding: 10px;
+  opacity: 0.4;
+}
