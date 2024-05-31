@@ -18,6 +18,10 @@ header {
   border-bottom: solid 1px black;
   padding-inline: 5em;
   min-height: 70px;
+  position: fixed;
+  width: 100%;
+
+  z-index: 99;
 }
 nav a {
   color: black;
@@ -39,7 +43,7 @@ nav p {
   justify-content: space-between;
   padding-left: 5em;
   align-items: center;
-  max-height: 300px;
+  padding-top: 2em;
 }
 #titolo h1 {
   font-weight: bold;
