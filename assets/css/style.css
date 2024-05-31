@@ -63,6 +63,7 @@ nav p {
 }
 #sect2 {
   padding-inline: 5em;
+  border-bottom: solid 1px lightgray;
 }
 #sect2 article {
   display: flex;
@@ -96,4 +97,51 @@ nav p {
 .articolo h2 {
   font-size: 17px;
   padding-left: 8px;
+}
+#sect2 > div:first-child {
+  display: flex;
+  margin-top: 3em;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0.7em;
+}
+#sect2 > div:first-child svg {
+  width: 20px;
+}
+article {
+  padding-bottom: 1em;
+}
+.cardNotizie2 {
+  display: flex;
+  margin-bottom: 2em;
+}
+.cardNotizie2 div {
+  max-width: 50%;
+}
+.cardNotizie2 img {
+  object-fit: cover;
+  width: 20%;
+}
+#sect3 {
+  max-width: 75%;
+  padding-inline: 5em;
+}
+.cardNotizie2 h2 {
+  display: flex;
+  font-weight: bold;
+}
+.cardNotizie2 h2 img {
+  width: 20px;
+}
+.cardNotizie2 h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.cardNotizie2 p {
+  opacity: 0.4;
+  font-size: 20px;
+}
+.cardNotizie2 h3 {
+  opacity: 0.4;
+  font-size: 15px;
 }
