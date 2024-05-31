@@ -198,4 +198,42 @@ article {
   .cardNotizie2 {
     position: relative;
   }
+  #tabella div {
+    margin-right: 5em;
+    font-size: 12px;
+    justify-content: space-evenly;
+
+    margin-inline: 80px;
+  }
+  #tabella {
+    border-bottom: unset;
+  }
+  #tabellaSect {
+    margin-left: -35px;
+  }
+  #linkFinali div {
+    font-size: 11px;
+    margin-left: 88px;
+  }
+  #tabellaSect h1 {
+    margin-left: 84px;
+    font-size: 10px;
+  }
+  #cardNotizie2 p {
+    font-size: 13px;
+  }
+  .cardNotizie2 h1 {
+    font-size: 25px;
+  }
+  .cardNotizie2 h2 {
+    font-size: 11px;
+    align-items: center;
+  }
+  .cardNotizie2 img {
+    width: 50%;
+  }
+  .cardNotizie2 p {
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+  }
 }
